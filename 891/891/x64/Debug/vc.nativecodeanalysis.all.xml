@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>E:\我的文档\学习\暨南大学\学业文件\第八学期\其它\直博\City University of Hong Kong\ACM\891\891\</FILEPATH>
+      <FILENAME>891.cpp</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。</DESCRIPTION>
+    <FUNCTION>checkSimple</FUNCTION>
+    <DECORATED>?checkSimple@@YA_NAEAV?$vector@HV?$allocator@H@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

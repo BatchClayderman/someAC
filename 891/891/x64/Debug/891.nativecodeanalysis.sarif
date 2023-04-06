@@ -1,0 +1,65 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/我的文档/学习/暨南大学/学业文件/第八学期/其它/直博/City University of Hong Kong/ACM/891/891/891.cpp"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 43,
+                  "endLine": 101,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "checkSimple",
+                  "decoratedName": "?checkSimple@@YA_NAEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32502.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/我的文档/学习/暨南大学/学业文件/第八学期/其它/直博/City University of Hong Kong/ACM/891/891/891.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cd3d6f0ec1dd8b647b48673a408b52e72798d1abb4e438335c90f19115f27842"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿  891.cpp
+E:\我的文档\学习\暨南大学\学业文件\第八学期\其它\直博\City University of Hong Kong\ACM\891\891\891.cpp(15,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码
+  2 of 5 functions (40.0%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  891.vcxproj -> E:\我的文档\学习\暨南大学\学业文件\第八学期\其它\直博\City University of Hong Kong\ACM\891\x64\Release\891.exe
