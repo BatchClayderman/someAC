@@ -170,7 +170,7 @@ def baseline6() -> int:
 			count += 1
 	return count
 
-def main() -> int:
+def main() -> int: # Calculate the number of natural numbers in 100000000 that have an even number of digits and the sum of the digits in the first half is equal to the sum of the digits in the second half. 
 	proposedFunctions = (method1, method2, method3)
 	for i, func in enumerate(proposedFunctions):
 		startTime = perf_counter()
